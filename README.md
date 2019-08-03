@@ -8,3 +8,7 @@ For more information click this [link](https://en.wikipedia.org/wiki/Web_scrapin
 ## Project 1 - Amazon Scraping
 The code checks the price for the particular product and sends the email, if the price gets lower then our specified price. We also can add  timer, which will run the code every 5 hour (for example). 
 Used libraries: [Requests](https://2.python-requests.org/en/master/), [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [Time](https://docs.python.org/3/library/time.html), [SmtpLib](https://docs.python.org/3/library/smtplib.html), [Lxml](https://lxml.de/4.0/).
+
+## Project 2 - E-commerce Scraping
+The website which is used for this project is educational webscraping [website](https://www.webscraper.io/test-sites/e-commerce/allinone/computers/tablets). It was created to train scraping knowledge. The code is scraping all the products information (prices, names and links) and storing it in the excel file. 
+Used libraries: [Requests](https://2.python-requests.org/en/master/), [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [Pandas](https://pandas.pydata.org/), [Openpyxl](https://pypi.org/project/openpyxl/).
